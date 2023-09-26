@@ -1,0 +1,202 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+span,
+button {
+  color: #fff;
+}
+
+body {
+  background-color: #14171a;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left > svg {
+  height: 30em;
+}
+
+.left,
+.right {
+  width: 100%;
+  padding: 1em 5em;
+}
+
+.left > svg {
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.5em 0.5em;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 900;
+  font-family: "Mukta", sans-serif;
+  margin-bottom: 0.5em;
+}
+
+.subtitle {
+  font-size: 42px;
+  font-weight: bolder;
+  font-family: "Mukta", sans-serif;
+}
+
+.signup-options {
+  display: flex;
+  flex-direction: column;
+  padding: 0.1em;
+}
+
+.apple > .text {
+  font-weight: 600;
+}
+
+.google > .text {
+  color: rgb(46, 46, 46);
+  font-family: "Inclusive Sans", sans-serif;
+}
+.signup-options > .btn {
+  margin-bottom: 0.8em;
+  padding: 7px;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+.divider {
+  margin-bottom: 0.8em;
+}
+.google > span {
+  color: rgb(189, 189, 189);
+}
+
+.text {
+  font-family: "Mukta", sans-serif;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  margin-left: 5px;
+}
+
+.btn > span {
+  color: black;
+}
+.apple > .icon {
+  margin-top: -3px;
+  margin-left: -17px;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+}
+.icon > svg {
+  height: 25px;
+  width: 25px;
+}
+
+.divider {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider > span:nth-child(odd) {
+  width: 50%;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.divider > span:nth-child(2) {
+  text-align: center;
+  font-size: 18px;
+  width: 10%;
+}
+
+.btn.create-account,
+.btn.signin {
+  border: none;
+  color: #fff;
+  background-color: #1da1f2;
+  margin-bottom: 0.8em;
+  padding: 13px;
+  width: 50%;
+  font-weight: 900;
+  font-size: medium;
+  border-radius: 30px;
+}
+.google:hover {
+  cursor: pointer;
+}
+.apple:hover {
+  cursor: pointer;
+  background-color: #f1ebeb;
+  transition: 0.3s;
+}
+
+.create-account:hover {
+  background-color: #1da0f2d7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn.signin {
+  background-color: #14171a;
+  border: 1px solid rgba(166, 221, 255, 0.5);
+  color: #1da1f2;
+}
+
+.btn.signin:hover {
+  cursor: pointer;
+  background-color: #1da0f221;
+}
+
+.signin-options {
+  margin-top: 5em;
+}
+
+.signin-options > .title {
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 0.022em;
+  margin: 0 0 1em 0;
+}
+
+.signup-options > p:last-child {
+  font-size: 11px;
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 100;
+  width: 50%;
+  color: rgb(113, 118, 123);
+  word-wrap: break-word;
+}
+
+.signup-options > p > a {
+  text-decoration: none;
+  color: #1da1f2;
+}
